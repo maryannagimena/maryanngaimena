@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maryanna Gimena - Singer, Dancer, Actor</title>
+    <style>
+        body {
+            font-family: 'Arial, sans-serif';
+            background-color: #f9f4f4;
+            color: #5a4d4d;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f2d7d5;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #d45a65;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #f8e5e4;
+            padding: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #d45a65;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border: 1px solid #f2d7d5;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #f2d7d5;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .socials {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .socials a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #d45a65;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Maryanna Gimena</h1>
+        <p>Singer, Dancer, Actor</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! I'm Maryanna Gimena, a 15-year-old Filipino artist with a passion for singing, dancing, and acting. I love expressing myself through my talents and sharing my journey with the world.</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Coming soon! Stay tuned for updates on my latest projects and performances.</p>
+    </section>
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Check out my blog where I share my experiences, tips, and stories from my journey as an artist.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>I'd love to hear from you! Feel free to reach out to me on social media or send me an email.</p>
+        <div class="socials">
+            <a href="https://instagram.com/maryanna.gimena" target="_blank">Instagram</a>
+            <a href="https://tiktok.com/@mscyxznxa" target="_blank">Tiktok</a>
+            <a href="https://youtube.com/@MaryannaGimena" target="_blank">YouTube</a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Maryanna Gimena</p>
+    </footer>
+</body>
+</html>
